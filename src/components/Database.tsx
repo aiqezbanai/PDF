@@ -10,7 +10,7 @@ interface TableDef {
   sql: string;
 }
 
-const TABLES: TableDef[] = [
+export const TABLES: TableDef[] = [
   {
     name: "certificates",
     purpose: "Յուրաքանչյուր օգտատիրոջ 30-օրյա ստորագրված լիցենզիան։ status-ը հաշվարկվում է verify-ի ժամանակ՝ expires_at-ից, իսկ revoked-ը նշվում է admin-ի կողմից։",

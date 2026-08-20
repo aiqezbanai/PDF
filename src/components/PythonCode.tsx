@@ -11,7 +11,7 @@ const LIBS = [
   ["psutil", "system", "սարքի fingerprint՝ սերտիֆիկատը մեկ PC-ի կապելու համար", "text-[#8ab8f0]"],
 ] as const;
 
-const FILES: { name: string; lang: "python" | "bash" | "text"; desc: string; code: string }[] = [
+export const FILES: { name: string; lang: "python" | "bash" | "text"; desc: string; code: string }[] = [
   {
     name: "requirements.txt",
     lang: "text",
